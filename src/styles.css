@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #09e2ac;
+  --navi-color: #2b1992;
+  --background-color: #cad0d3;
+  --width-max: 650px;
+}
+
+body {
+  max-width: 100%;
+  margin: 0px auto;
+  background-size: 88%;
+  background-color: var(--background-color);
+}
+.navigation {
+  background-image: linear-gradient(var(--primary-color), var(--navi-color));
+  color: black;
+  padding: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 40px;
+}
