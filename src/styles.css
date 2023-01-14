@@ -13,7 +13,7 @@ body {
   max-width: 100%;
   margin: 0px auto;
   background-size: 88%;
-  background-color: var(--background-color);
+  background-image: linear-gradient(white, orange);
 }
 .navigation {
   background-image: linear-gradient(var(--primary-color), var(--navi-color));
@@ -27,4 +27,39 @@ body {
 .nav-brand {
   font-weight: bold;
   font-size: 40px;
+}
+
+#liveRecommand {
+  font-size: 3rem;
+  font-family: sans;
+  font-style: italic;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline 1.5px;
+  width: 50%;
+  margin: auto;
+  border-radius: 1rem;
+  background-color: darkblue;
+}
+
+#listStyle {
+  list-style: none;
+  border: 1px black solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 65%;
+  margin: auto;
+  background-color: cyan;
+  color: black;
+  padding: 1.5rem;
+}
+
+#footer {
+  background-image: linear-gradient(var(--navi-color), var(--primary-color));
+  color: black;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  text-align: center;
 }
