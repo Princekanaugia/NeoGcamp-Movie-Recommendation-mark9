@@ -8,7 +8,7 @@
  - Codesandbox
 
 ## Preview Link
-https://rzbwct.csb.app/
+https://moviemark9.netlify.app/
 ### Home Page
 ![homepage](https://github.com/Princekanaugia/NeoGcamp-Movie-Recommendation-mark9/blob/main/image/movie%20recommendation.PNG?raw=true)
 
